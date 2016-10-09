@@ -2,9 +2,13 @@ body {
 	line-height: normal;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
+	padding-bottom: 0px;
+	background-image: url('../images/bg-wood.jpg');
 }
 
+/**************/
 /* Navigation */
+/**************/
 
 .bg-header {
 	position: absolute;
@@ -48,6 +52,10 @@ body {
 	border-color: #fff;
 }
 
+.divider-bottom {
+	margin-bottom: 0px;
+}
+
 .navbar-toggle {
 	border-color: transparent;
 	background-color: #1f8f92;
@@ -57,4 +65,59 @@ body {
 	background-color: #1f8f92;
 }
 
-/**************/
+/************/
+/* Carousel */
+/************/
+
+.carousel {
+	margin-top: 150px;
+	margin-bottom: 0px;
+}
+
+.carousel-indicators li { 
+	visibility: hidden; 
+}
+
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+.carousel-caption {
+	text-align: left;
+	left: 60px;
+	right: 55%;
+	top: 60px;
+	bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #1f8f92;
+	text-shadow: none;
+}
+
+.carousel-caption > p {
+	color: #000;
+}
+
+.carousel-inner > .item > img {
+	object-fit: cover;
+}
+
+/**********/
+/* Footer */
+/**********/
+
+footer {
+	background-image: url('../images/bg-footer.jpg');
+	height: 460px;
+}
+
+/********/
+/* Home */
+/********/
+
+.home-content {
+	background-color: #f9f6ed;
+	margin-top: -30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
