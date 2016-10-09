@@ -65,6 +65,12 @@ body {
 	background-color: #1f8f92;
 }
 
+@media (min-width: 992px) {
+	.navbar-right {
+		margin-top:95px;
+	}
+}
+
 /************/
 /* Carousel */
 /************/
