@@ -113,6 +113,13 @@ body {
 footer {
 	background-image: url('../images/bg-footer.jpg');
 	height: 460px;
+	color: #fff;
+	padding-top: 30px;
+}
+
+.footer-links {
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 /********/
@@ -142,8 +149,8 @@ footer {
 }
 
 .img-circle {
-		margin-left: 15px;
-	}
+	margin-left: 15px;
+}
 
 @media (min-width: 1200px) {
 	.marketing .col-lg-4 {
