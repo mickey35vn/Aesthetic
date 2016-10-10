@@ -69,6 +69,44 @@ body {
 	}
 }
 
+/*****************/
+/* Dropdown menu */
+/*****************/
+
+.dropdown-menu {
+	background-color: #113a39;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.dropdown-header {
+	color: #72b4b1;
+}
+
+.dropdown-divider {
+	border-top: #72b4b1 2px solid;
+}
+
+.dropdown-menu>li>a {
+	color: #fff;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #113a39;
+    background-image: none;
+    color: #fff;
+}
+
+.dropdown-menu-top {
+	border-top: #72b4b1 5px solid;
+}
+
+.dropdown-menu>li {
+	border-bottom: #114748 1px solid;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
 /************/
 /* Carousel */
 /************/
@@ -122,9 +160,9 @@ footer {
 	margin-bottom: 20px;
 }
 
-/********/
-/* Home */
-/********/
+/**************/
+/* Three cols */
+/**************/
 
 .home-content {
 	background-color: #f9f6ed;
