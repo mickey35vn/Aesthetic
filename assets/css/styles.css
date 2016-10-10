@@ -181,7 +181,7 @@ footer {
 	text-align: left;
 }
 
-.marketing .col-lg-4 {
+.marketing .col-sm-4 {
 	margin-bottom: 0px;
 	text-align: left;
 }
@@ -190,8 +190,8 @@ footer {
 	margin-left: 15px;
 }
 
-@media (min-width: 1200px) {
-	.marketing .col-lg-4 {
+@media (min-width: 768px) {
+	.marketing .col-sm-4 {
 	    text-align: center;
 	}
 	.img-circle {
@@ -199,11 +199,11 @@ footer {
 	}
 }
 
-.marketing .col-lg-4 h2 {
+.marketing .col-sm-4 h2 {
     color: #077074;
 }
 
-.marketing .col-lg-4 p {
+.marketing .col-sm-4 p {
     margin-right: 0px;
     margin-left: 0px;
 }
