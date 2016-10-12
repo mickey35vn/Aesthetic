@@ -16,6 +16,7 @@ body {
 
 .navbar-brand {
 	height: 150px;
+	margin-top: 0px;
 }
 
 .navbar-wrapper {
@@ -63,10 +64,141 @@ body {
 	background-color: #1f8f92;
 }
 
-@media (min-width: 992px) {
-	.navbar-right {
-		margin-top:95px;
+@media (min-width: 1200px) {
+	.navbar-main {
+		margin-top: 50px;
 	}
+	.navbar-brand {
+		margin-top: -50px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-main {
+		margin-top: 90px;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+	    color: #fff;
+	} 
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header {
+	    border-color: #72b4b1;
+	}
+	.navbar-wrapper {
+		background-image: url('../images/bg-header-small.jpg');
+	}
+}
+
+/**********/
+/* Topbar */
+/**********/
+
+.toprow-mob {
+	background-color: #085282;
+	padding: 0px;
+	border-radius: 0px;
+	visibility: hidden;
+	height: 53px;
+}
+
+.btn-top-mob {
+	text-align: center;
+	border-left: #fff 1px solid;
+	padding-bottom: 5px;
+}
+
+.btn-top-mob-left {
+	text-align: center;
+	border-left: none;
+}
+
+.btn-top-mob>a {
+	color: #fff;
+	font-size: 12px;
+}
+
+.toprow {
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 740px;
+	visibility: visible;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 50;
+}
+
+@media (max-width: 767px) {
+	.toprow {
+		visibility: hidden;
+	}
+	.toprow-mob {
+		visibility: visible;
+		height: 30px;
+	}
+}
+
+@media (min-width: 1200px) { 
+	.toprow {
+		margin-right: 65px;
+	}
+}
+
+.topbar {
+	width: 635px;
+	height: 53px;
+	background-image: url('../images/bg-actions.jpg');
+}
+
+.col-no-padding {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.topbar>.col-sm-2 {
+	padding-right: 15px;
+	padding-left: 0px;
+}
+
+.btn-top {
+	text-align: center;
+	border-left: #fff 1px solid;
+	padding-right: 33px;
+	padding-left: 33px;
+}
+
+.topbar>.col-sm-10>.btn-group {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.btn-top-left {
+	border-left: none;
+}
+
+.btn-top-right {
+	border-left: none;
+	height: 100%;
+}
+
+.btn-top>a {
+	color: #fff;
+	font-size: 15px;
+	height: 100%;
+	position: relative;
+	top: 25%;
+}
+
+.social-bar {
+	padding-left: 0px;
+	width: 140px;
+	margin-left: -5px;
+}
+
+.btn-social {
+	padding: 5px;
 }
 
 /*****************/
