@@ -24,6 +24,7 @@ body {
 	background-color: #015b5b;
 	background-repeat: no-repeat;
 	background-image: url('../images/bg-header.jpg');
+	position: relative;
 }
 
 .navbar-inverse {
@@ -248,7 +249,7 @@ body {
 /************/
 
 .carousel {
-	margin-top: 150px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
@@ -274,9 +275,11 @@ body {
 
 .carousel-caption > p {
 	color: #000;
+	font-size: 18px;
 }
 
 .carousel-inner > .item > img {
+	object-position: 0 0;
 	object-fit: cover;
 }
 
