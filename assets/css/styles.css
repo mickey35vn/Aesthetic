@@ -64,6 +64,10 @@ body {
 	background-color: #1f8f92;
 }
 
+.navbar-nav>li>.dropdown-menu {
+    margin-top: -10px;
+}
+
 @media (min-width: 1200px) {
 	.navbar-main {
 		margin-top: 50px;
