@@ -293,16 +293,45 @@ body {
 /* Footer */
 /**********/
 
-footer {
-	background-image: url('../images/bg-footer.jpg');
-	height: 460px;
+footer > .container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.footer-content {
+	background-image: url('../images/bg-footer1.jpg');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	padding: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
 	color: #fff;
-	padding-top: 30px;
+}
+
+.footer-copyright {
+	background-image: url('../images/bg-footer2.jpg');
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	color: #fff;
 }
 
 .footer-links {
 	margin-top: 30px;
 	margin-bottom: 20px;
+}
+
+.footer-header {
+	color: #72b4b1;
+	margin-bottom: 10px;
+}
+
+.footer-sublinks, .footer-sublinks:hover, .footer-sublinks:focus {
+	color: #fff;
+	text-decoration: none;
 }
 
 /**************/
