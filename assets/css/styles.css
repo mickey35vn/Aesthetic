@@ -253,12 +253,22 @@ body {
 	margin-bottom: 0px;
 }
 
-.carousel-indicators li { 
-	visibility: hidden; 
-}
-
 .right.carousel-control, .left.carousel-control {
     display: none;
+}
+
+
+.carousel-indicators li {
+	border-color: #72b4b1;
+	background-color: #72b4b1;
+	width: 12px;
+	height: 12px;
+	margin: 0;
+}
+
+.carousel-indicators .active {
+	border-color: #1f8f92;
+	background-color: #1f8f92;
 }
 
 .carousel-caption {
