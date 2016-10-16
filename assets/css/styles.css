@@ -152,9 +152,10 @@ body {
 }
 
 .topbar {
-	width: 635px;
+	width: 645px;
 	height: 53px;
 	background-image: url('../images/bg-actions.jpg');
+	background-repeat: no-repeat;
 }
 
 .col-no-padding {
