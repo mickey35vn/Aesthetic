@@ -60,6 +60,18 @@ body {
   height: 800px;
 }
 
+@media (max-width: 768px) {
+  .carousel {
+    height: 500px;
+  }
+  .carousel .item {
+    height: 500px;
+  }
+  .carousel-inner > .item > img {
+    height: 500px;
+  }
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
