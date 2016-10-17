@@ -6,6 +6,10 @@ body {
 	background-image: url('../images/bg-wood.jpg');
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 /**************/
 /* Navigation */
 /**************/
