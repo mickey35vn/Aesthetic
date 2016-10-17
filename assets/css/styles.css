@@ -364,9 +364,9 @@ footer > .container-fluid {
 	}
 }
 
-/*********/
-/* About */
-/*********/
+/**************/
+/* Child page */
+/**************/
 
 .page-tab-title {
 	color: #fff;
@@ -378,12 +378,6 @@ footer > .container-fluid {
 .page-tab-bg {
 	position: absolute;
 	z-index: -50;
-}
-
-.about-content {
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-top: 40px;
 }
 
 .child-main {
@@ -402,6 +396,9 @@ footer > .container-fluid {
 		background-color: #d86327;
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
+	}
+	.page-tab-title h2 {
+		font-size: 18px;
 	}
 	.page-tab-bg {
 		visibility: hidden;
@@ -436,7 +433,6 @@ footer > .container-fluid {
 }
 
 .btn-req, .btn-req:hover, .btn-req:focus {
-	font-size: 18px;
 	display: block;
     padding: 5px;
     margin-bottom: 30px;
@@ -463,6 +459,16 @@ footer > .container-fluid {
 	margin-bottom: 30px;
 }
 
+/*********/
+/* About */
+/*********/
+
+.about-content {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+}
+
 .bd-callout-quote {
 	background:url('../images/quotes.png') 18px top no-repeat;
 	background-size:24px;
@@ -474,4 +480,60 @@ footer > .container-fluid {
 	margin-top:9px;
 	position:relative;
 	border-left: 3px solid #d86327;
+}
+
+/*******************/
+/* Side navigation */
+/*******************/
+
+.side-navigation ul {
+	padding-left: 0px;
+	margin-bottom: 30px;
+}
+
+.side-navigation li {
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: #ebe4d2 1px solid;
+	border-right: #ebe4d2 1px solid;
+	border-left: #ebe4d2 1px solid;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f9f6ed 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f9f6ed));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f9f6ed 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#f9f6ed 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f9f6ed 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#f9f6ed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9f6ed',GradientType=0 );
+}
+.side-navigation li:hover {
+	background: #d86327;
+	background: -moz-linear-gradient(top,  #d86327 0%, #d86327 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d86327), color-stop(100%,#d86327));
+	background: -webkit-linear-gradient(top,  #d86327 0%,#d86327 100%);
+	background: -o-linear-gradient(top,  #d86327 0%,#d86327 100%);
+	background: -ms-linear-gradient(top,  #d86327 0%,#d86327 100%);
+	background: linear-gradient(to bottom,  #d86327 0%,#d86327 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d86327', endColorstr='#d86327',GradientType=0 );
+}
+.side-navigation li a {
+	display: block;
+	padding: 0 0 0 15px;
+	color:#d86327;
+}
+.side-navigation li:hover a {
+	color:#fff;
+}
+
+/*********/
+/* Botox */
+/*********/
+
+.before-after-img {
+	width: 100%;
+}
+
+.before-after-row {
+	padding: 15px;
 }
