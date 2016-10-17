@@ -382,13 +382,13 @@ footer > .container-fluid {
 	padding-top: 40px;
 }
 
-.about-main {
+.child-main {
 	padding-left: 0px;
 	padding-right: 40px;
 }
 
 @media (max-width: 991px) {
-	.about-main {
+	.child-main {
 		padding-right: 0px;
 	}
 }
