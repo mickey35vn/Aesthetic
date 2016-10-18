@@ -299,6 +299,14 @@ a:hover {
 @media (max-width: 768px) {
 	.carousel-caption {
 		right: 60px;
+		top: 20px;
+		left: 20px;
+	}
+	.carousel-caption > h1 {
+		font-size: 15px;
+	}
+	.carousel-caption > p {
+		font-size: 12px;
 	}
 }
 
@@ -373,6 +381,10 @@ footer > .container-fluid {
 	padding-left: 30px;
 	margin: 0px;
 	height: 73px;
+}
+
+.page-tab-title h2 {
+	font-size: 21px;
 }
 
 .page-tab-bg {
@@ -536,4 +548,19 @@ footer > .container-fluid {
 
 .before-after-row {
 	padding: 15px;
+}
+
+/*******/
+/* BBL */
+/*******/
+
+.before-after-caption {
+	top: 0px;
+	left: 0px;
+	padding: 10px 10px 0px 10px;
+	background-color: #fff;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	position: absolute;
 }

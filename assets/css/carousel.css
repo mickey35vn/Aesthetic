@@ -37,8 +37,23 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
+.carousel-container {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
 .carousel {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.carousel img {
+  max-width: none;
+  width: 100%;
+}
+
+/* Carousel base class */
+/*.carousel {
   height: 800px;
   margin-bottom: 60px;
 }
@@ -49,10 +64,10 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 800px;
+  /*height: 800px;*/
   background-color: #777;
 }
-.carousel-inner > .item > img {
+/*.carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
