@@ -494,6 +494,19 @@ footer > .container-fluid {
 	border-left: 3px solid #d86327;
 }
 
+.bd-right-quote {
+	background:url('../images/quotes.png') 18px top no-repeat;
+	background-size:24px;
+	border-left:0;
+	border-bottom:0;
+	order-top:0;
+	padding-left:55px;
+	margin-left:20px;
+	margin-top:9px;
+	position:relative;
+	border-right: 3px solid #d86327;
+}
+
 /*******************/
 /* Side navigation */
 /*******************/
