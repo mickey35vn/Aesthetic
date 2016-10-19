@@ -10,6 +10,11 @@ a:hover {
 	text-decoration: none;
 }
 
+.normal-link, .normal-link:hover, .normal-link:focus {
+	color: #5a5a5a;
+	text-decoration: none;
+}
+
 /**************/
 /* Navigation */
 /**************/
