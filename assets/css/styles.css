@@ -336,6 +336,30 @@ footer > .container-fluid {
 	margin: 0px;
 }
 
+.footer-top-main-column {
+    background-color: #3e4047;
+    color: #fff;
+    padding: 15px;
+}
+
+.footer-book-online, .footer-book-online:hover, .footer-book-online:focus {
+	width: 100%;
+	max-width: 250px;
+	text-align: center;
+	background-color: transparent;
+	border-color: #fff;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 25px;
+}
+
+.footer-phone, .footer-phone:hover, .footer-phone:focus {
+	text-decoration: none;
+	color: #fff;
+}
+
 .iframe-container{
     position: relative;
     width: 100%;
