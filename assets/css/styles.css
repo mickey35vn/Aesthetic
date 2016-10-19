@@ -321,10 +321,37 @@ footer > .container-fluid {
 
 .footer-content {
 	background-color: #3e4047;
-	padding: 30px;
+	padding: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
 	color: #fff;
+}
+
+.footer-contact {
+	padding: 30px;
+}
+
+.footer-map {
+	padding: 0px;
+	margin: 0px;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .footer-copyright {
@@ -790,4 +817,25 @@ footer > .container-fluid {
 	.sm-col-3 {
 	    width: 25%;
 	}
+}
+
+.book-online, .book-online:hover, .book-online:focus {
+	font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    line-height: 1.125rem;
+    padding: .6rem 1.5rem;
+    margin: 0;
+    height: auto;
+    border: 2px solid transparent;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: #fff;
+    background-color: #d86327;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    transition: all .3s ease 0;
 }
