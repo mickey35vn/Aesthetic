@@ -868,3 +868,32 @@ footer > .container-fluid {
     border-radius: 25px;
     transition: all .3s ease 0;
 }
+
+/* Biote */
+
+.biote-question {
+	color: #d86327;
+}
+
+.biote-row {
+	display: table;
+}
+
+.biote-col {
+	float: none;
+	display: table-cell;
+	vertical-align: top;
+}
+
+.biote-faq {
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 30px;
+	min-height: 100%;
+	height: 100%;
+}
+
+.biote-question-mark {
+	width: 100%;
+	text-align: center;
+}
