@@ -419,6 +419,7 @@ footer > .container-fluid {
 	padding-top: 30px;
 	margin-left: 40px;
 	margin-right: 40px;
+	margin-top: -60px;
 }
 
 @media (max-width: 768px) {
@@ -884,4 +885,55 @@ footer > .container-fluid {
 .biote-question-mark {
 	width: 100%;
 	text-align: center;
+}
+
+/* Three cols */
+
+.col-content {
+	background-color: #fff;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: left;
+}
+
+.marketing .col-sm-4 {
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+.img-circle {
+	margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+	.marketing .col-sm-4 {
+	    text-align: center;
+	}
+	.img-circle {
+		margin-left: 0px;
+	}
+}
+
+.marketing .col-sm-4 h2 {
+    color: #d86327;
+}
+
+.marketing .col-sm-4 p {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.bucket-img {
+	margin-top: -110px;
+	height:80px;
+	background: #0c787c;
+	background: -moz-linear-gradient(top,  #0c787c 0%, #006162 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0c787c), color-stop(100%,#006162));
+	background: -webkit-linear-gradient(top,  #0c787c 0%,#006162 100%);
+	background: -o-linear-gradient(top,  #0c787c 0%,#006162 100%);
+	background: -ms-linear-gradient(top,  #0c787c 0%,#006162 100%);
+	background: linear-gradient(to bottom,  #0c787c 0%,#006162 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c787c', endColorstr='#006162',GradientType=0 );
 }
