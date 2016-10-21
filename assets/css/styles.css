@@ -898,7 +898,7 @@ footer > .container-fluid {
 	text-align: left;
 }
 
-.marketing .col-sm-6 {
+.home-box {
 	margin-bottom: 0px;
 	text-align: left;
 }
@@ -908,7 +908,7 @@ footer > .container-fluid {
 }
 
 @media (min-width: 768px) {
-	.marketing .col-sm-6 {
+	.home-box {
 	    text-align: center;
 	}
 	.img-circle {
@@ -933,4 +933,37 @@ footer > .container-fluid {
 
 .scrolloff {
     pointer-events: none;
+}
+
+/* Doctor on homepage */
+
+.doctor-row {
+	padding: 0px;
+	margin: 0px;
+	display: table;
+}
+
+.doctor-block {
+	background-color: #d86327;
+	padding: 20px;
+	display: table-cell;
+	float: none;
+}
+
+.doctor-title-text {
+	color: #fff;
+}
+
+.doctor-text {
+	color: #fff;
+	font-style: italic;
+}
+
+.doctor-desc {
+	background-color: #fff;
+	border-color: #000;
+	border-width: 1px;
+	padding: 20px;
+	display: table-cell;
+	float: none;
 }
