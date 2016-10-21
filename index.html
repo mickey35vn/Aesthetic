@@ -158,7 +158,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="assets/images/new_slide3.jpg" alt="Third slide">
+          <img class="third-slide" src="assets/images/FNM_Templates_Kana_REG.png" alt="Third slide">
           <div class="container-fluid">
             <div class="carousel-caption">
               <h1>See a slimmer you.</h1>
@@ -196,38 +196,38 @@
           <img class="img-circle" src="assets/images/img-coolsculpting-treatment-circle.png" alt="Generic placeholder image" width="170" height="170">
           <div class="bucket-img"></div>
           <div class="col-content">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <h2>Feel younger looking skin</h2>
+            <p>Forever Young BBL is a revolutionary laser treatment that sends light energy deep into the skin to boost your body's natural ability to fight aging.</p>
+            <p><a class="btn btn-default" href="forever_young.html" role="button">View details &raquo;</a></p>
           </div>
         </div><!-- /.col-lg-4 -->
         <div class="col-sm-6">
           <img class="img-circle" src="assets/images/img-ultherapy-treatment-circle.png" alt="Generic placeholder image" width="170" height="170">
           <div class="bucket-img"></div>
           <div class="col-content">
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <h2>Feel More Like Your Younger, Vital, Sensual Self.</h2>
+            <p>Nobhills Medical & Aesthetics is proud to be the first medical office in San Francisco Bay Area to offer the latest breakthrough therapy in laser vaginal rejunivation.</p>
+            <p><a class="btn btn-default" href="diva.html" role="button">View details &raquo;</a></p>
           </div>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
       <div class="row" style="margin-bottom: 30px;">
         <div class="col-sm-6">
-          <img class="img-circle" src="assets/images/img-coolsculpting-treatment-circle.png" alt="Generic placeholder image" width="170" height="170">
+          <img class="img-circle" src="assets/images/img-coolsculpting-circle.png" alt="Generic placeholder image" width="170" height="170">
           <div class="bucket-img"></div>
           <div class="col-content">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <h2>See a slimmer you</h2>
+            <p>CoolSculpting is an innobative, non-innovative way to contour your body by freezing unwanted fat away.</p>
+            <p><a class="btn btn-default" href="cool_sculpting.html" role="button">View details &raquo;</a></p>
           </div>
         </div><!-- /.col-lg-4 -->
         <div class="col-sm-6">
-          <img class="img-circle" src="assets/images/img-ultherapy-treatment-circle.png" alt="Generic placeholder image" width="170" height="170">
+          <img class="img-circle" src="assets/images/img-sciton-halo-treatment-circle.png" alt="Generic placeholder image" width="170" height="170">
           <div class="bucket-img"></div>
           <div class="col-content">
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <h2>Age heathier and live happier with bioTE</h2>
+            <p>BioTE® Hormone Pellet Therapy uses hormones derived from natural plant sources to replicate the body’s normal hormonal levels.</p>
+            <p><a class="btn btn-default" href="biote.html" role="button">View details &raquo;</a></p>
           </div>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
@@ -274,6 +274,7 @@ Monday 8am – 5pm
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 
     <script src="assets/js/vendor/polyfill.object-fit.min.js"></script>
+    <script src="assets/js/vendor/jquery.matchHeight-min.js"></script>
     <script>
       // Call polyfill to fit in images
       document.addEventListener('DOMContentLoaded', function () {
@@ -281,11 +282,11 @@ Monday 8am – 5pm
           selector: 'img',
           fittype: 'cover'
         });
+        $('.col-content').matchHeight();
       });
     </script>
     <script>
       $(document).ready(function () {
-
           $('#map').addClass('scrolloff');                // set the mouse events to none when doc is ready
           
           $('#overlay').on("mouseup",function(){          // lock it when mouse up
@@ -300,7 +301,6 @@ Monday 8am – 5pm
               $('#map').addClass('scrolloff');            // set the pointer events to none when mouse leaves the map area
                                                           // or you can do it on some other event
           });
-          
       });
   </script>
   </body>
