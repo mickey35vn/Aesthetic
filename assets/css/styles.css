@@ -3,7 +3,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	padding-bottom: 0px;
-	background-image: url('../images/bg-wood.jpg');
+	background-color: #f9f6ed;
 }
 
 a:hover {
@@ -417,8 +417,8 @@ footer > .container-fluid {
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 30px;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-top: -60px;
 }
 
