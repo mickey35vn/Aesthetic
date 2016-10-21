@@ -898,7 +898,7 @@ footer > .container-fluid {
 	text-align: left;
 }
 
-.marketing .col-sm-4 {
+.marketing .col-sm-6 {
 	margin-bottom: 0px;
 	text-align: left;
 }
@@ -908,7 +908,7 @@ footer > .container-fluid {
 }
 
 @media (min-width: 768px) {
-	.marketing .col-sm-4 {
+	.marketing .col-sm-6 {
 	    text-align: center;
 	}
 	.img-circle {
@@ -929,4 +929,8 @@ footer > .container-fluid {
 	margin-top: -110px;
 	height:80px;
 	background: #d86327;
+}
+
+.scrolloff {
+    pointer-events: none;
 }
