@@ -3,7 +3,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	padding-bottom: 0px;
-	background-color: #f9f6ed;
+	background-image: url('../images/bg-wood.jpg');
 }
 
 a:hover {
