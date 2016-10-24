@@ -209,8 +209,60 @@
       <p>Dr. Bukov will develop a customized CoolSculpting treatment plan which addresses your problem areas. Your individualized treatment plan will be tailored to your body, your goals, and your budget.</p>
       <br>
       <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/S8pOChs-JY8"></iframe>
+        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/S8pOChs-JY8"></iframe>
       </div>
+      <h2 style="margin-bottom: 20px; margin-top: 30px;">COMMON QUESTIONS ABOUT COOLSCULPTING</h2>
+      <div class="row biote-row">
+        <div class="col-md-4 biote-col">
+          <div class="biote-faq">
+            <div class="biote-question-mark">
+              <img src="assets/images/question_mark.png">
+            </div>
+            <h4 class="biote-question">How does CoolSculpting work?</h4>
+            <p>Fat cells freeze at higher temperatures compared to the surrounding tissues. By using Coolsculpting technology, we can deliver a precise cooling to the targeted area. The fat cells in the area are then crystallized and die. Over time, the body eliminates the dead cells.</p>
+          </div>
+        </div>
+        <div class="col-md-4 biote-col">
+          <div class="biote-faq">
+            <div class="biote-question-mark">
+              <img src="assets/images/question_mark.png">
+            </div>
+            <h4 class="biote-question">How long does CoolSculpting take to see results?</h4>
+            <p>Usually, you'll see the results about three weeks after the procedure but the most dramatic changes are usually apparent two months after the CoolSculpting procedure.</p>
+          </div>
+        </div>
+        <div class="col-md-4 biote-col">
+          <div class="biote-faq">
+            <div class="biote-question-mark">
+              <img src="assets/images/question_mark.png">
+            </div>
+            <h4 class="biote-question">Are CoolSculpting results permanent?</h4>
+            <p>Once the fat cells die and they are being eliminated from the body, they're gone for good. The area that has been already treated will never accumulate as much fat as before.</p>
+          </div>
+        </div>
+      </div> <!-- end row -->
+      <div class="row biote-row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 biote-col">
+          <div class="biote-faq">
+            <div class="biote-question-mark">
+              <img src="assets/images/question_mark.png">
+            </div>
+            <h4 class="biote-question">Where can CoolSculpting be used?</h4>
+            <p>CoolScolpting is currently FDA cleared for the following areas: abdomen, flank (“love handles”), inner thigh, outer thigh and double chin.</p>
+          </div>
+        </div>
+        <div class="col-md-4 biote-col">
+          <div class="biote-faq">
+            <div class="biote-question-mark">
+              <img src="assets/images/question_mark.png">
+            </div>
+            <h4 class="biote-question">CoolSculpting versus liposuction?</h4>
+            <p>CoolSculpting is a nonsurgical procedure, and this is the main advantage and differentiating factor from liposuction. There is no anesthesia, no surgical incisions, no bruising, no post-surgical complications and, most importantly, no downtime after the procedure. Anyone can have it done and return to their normal activities right away.</p>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div> <!-- end row -->
     </div>
     <div class="col-md-3">
       <div class="side-navigation">
@@ -262,6 +314,7 @@
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 
     <script src="assets/js/vendor/polyfill.object-fit.min.js"></script>
+    <script src="assets/js/vendor/jquery.matchHeight-min.js"></script>
     <script>
       // Call polyfill to fit in images
       document.addEventListener('DOMContentLoaded', function () {
@@ -269,6 +322,7 @@
           selector: 'img',
           fittype: 'cover'
         });
+        $('.biote-faq').matchHeight();
       });
     </script>
   </body>
