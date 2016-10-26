@@ -943,14 +943,11 @@ footer > .container-fluid {
 .doctor-row {
 	padding: 0px;
 	margin: 0px;
-	display: table;
 }
 
 .doctor-block {
 	background-color: #d86327;
 	padding: 20px;
-	display: table-cell;
-	float: none;
 }
 
 .doctor-title-text {
@@ -967,6 +964,4 @@ footer > .container-fluid {
 	border-color: #000;
 	border-width: 1px;
 	padding: 20px;
-	display: table-cell;
-	float: none;
 }
