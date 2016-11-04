@@ -15,6 +15,11 @@ a:hover {
 	text-decoration: none;
 }
 
+.call-link, .call-link:hover, .call-link:focus {
+	color: #3d76b9;
+	text-decoration: none;
+}
+
 /**************/
 /* Navigation */
 /**************/
@@ -282,8 +287,8 @@ a:hover {
 .carousel-caption {
 	text-align: left;
 	left: 60px;
-	right: 60%;
-	top: 60px;
+	right: 55%;
+	top: 20px;
 	bottom: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
