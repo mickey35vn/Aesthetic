@@ -10,6 +10,22 @@ a:hover {
 	text-decoration: none;
 }
 
+.iframe-rwd  {
+	position: relative;
+	padding-bottom: 65.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: auto;
+	margin-bottom: 20px;
+	-webkit-overflow-scrolling:touch; //<<--- THIS IS THE KEY 
+}
+.iframe-rwd iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 .normal-link, .normal-link:hover, .normal-link:focus {
 	color: #5a5a5a;
 	text-decoration: none;
