@@ -24,7 +24,7 @@ a:hover {
 	height: 0;
 	overflow: auto;
 	margin-bottom: 20px;
-	-webkit-overflow-scrolling:touch; //<<--- THIS IS THE KEY 
+	-webkit-overflow-scrolling:touch;
 }
 .iframe-rwd iframe {
 	position: absolute;
@@ -177,6 +177,12 @@ a:hover {
 	.toprow-mob {
 		visibility: visible;
 		height: 30px;
+	}
+}
+
+@media (min-width: 480px) {
+	.hide-for-medium {
+		display: none !important;
 	}
 }
 
