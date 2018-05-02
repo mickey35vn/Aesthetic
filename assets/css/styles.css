@@ -43,6 +43,15 @@ a:hover {
 	text-decoration: none;
 }
 
+#salebar {
+    min-height: 32px;
+    background: #337ab7;
+}
+#salebar p {
+    color: #fff;
+    text-align: center;
+}
+
 /**************/
 /* Navigation */
 /**************/
