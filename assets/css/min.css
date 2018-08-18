@@ -26,6 +26,19 @@
 .toprow {
     top: 32px
 }
+#promobar {
+    background: #3e4047;
+    padding: 20px;
+    border-top: 1px solid #337ab7;
+}
+#promobar h2, #promobar p {
+    color: #fff;
+    text-align: center;
+    margin:0;
+}
+#promobar h2 {
+    margin-bottom: .2em;
+}
 
 
 
