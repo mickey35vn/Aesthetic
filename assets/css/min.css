@@ -41,6 +41,19 @@
     margin-bottom: .2em;
 }
 
+.navbar-nav > li.nav-btn {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+.navbar-nav > li.nav-btn a.btn {
+    background: #d86327;
+    font-size: inherit;
+    border-color: #d86327;
+}
+.navbar-nav > li.nav-btn a.btn:hover {
+    background: none;
+}
+
 
 
 
